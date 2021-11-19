@@ -1,0 +1,23 @@
+#formContainer h1 {
+    color: grey;
+}
+
+#formFields > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+#formFields > div > * {
+    flex-basis: 60%;
+}
+
+#formFields > div > label {
+    flex-basis: 30%;
+    font-weight: bold;
+}
+
+#formFields option {
+    font-family: sans-serif;
+}
